@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>change palette</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon.svg" type="image/x-icon">
+    <meta name="keywords" content="mudança de cor, pixel art, ferramenta de edição, arte digital, editor de imagem, cores, paleta de cores, pintura digital, criação de arte, arte em pixels, editor de pixel art, ferramenta de pixel art, arte vetorial, edição de arte, arte em bitmap, arte em 8 bits, editor de paleta de cores, ferramenta de paleta de cores ,mudar cores individualmente">
+</head>
+<body>
+    <nav>
+        <label id="logo"><img src="icon.svg" alt=""></label>
+        <h2 id="title">Change Palette</h2>
+        <span>Upload a image to chage colors</span>
+        <div id="description">This site is dedicated to pixel art, so please do not send large images to avoid crashes</div>
+    </nav>
+    <div id="all">
+        <canvas id="canvas"></canvas>
+        <canvas id="canvasEdited"></canvas>
+    
+        <div id="prev">
+            <div>
+                <img src="" id="original" alt="">
+                <button id="uploadNew">Upload New Image</button>
+            </div>
+            <div>
+                <img src="" id="preview" alt="">
+                <button id="download">Download</button>
+            </div>
+
+        </div>
+        <div id="colors"> Edit Colors </div>
+        <div id="inputs">
+        </div>
+        <div id="lll">
+        </div>
+        <div id="mec">
+            <button id="upload"> Upload Image</button>
+            <button id="uploadPallete"> Upload pallete</button>
+            <button id="picker"> <img src="pick.svg" alt=""> <span>picker</span> </button>
+            <input type="color" id="color" style="display: none;">
+            <input type="file" name="imagem" id="imagem">
+            <input type="file" name="imagem" id="pallete">
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <style id="style">
+        :root{
+            --cl1:#3C153B;
+            --cl2:#8B1E3F;
+            --cl3:#F0C987;
+            --cl4:#89BD9E;
+            --cl5:#DB4C40;
+        }
+    </style>
+    <div class="credits">Created by <a href="https://gseven.me/">&copy;gseven</a></div>
+</body>
+</html>
