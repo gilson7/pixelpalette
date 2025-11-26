@@ -160,11 +160,11 @@ inputFile.addEventListener('change', function() {
                     const element = ipts[index];
                     element.style.outline= "none"
                 }
-                lastInput.style.outline="solid 1px var(--cl3)"
+                lastInput.style.outline="solid 2px var(--primary)"
             }
         });
         lastInput = document.getElementsByClassName("ipp")[0]
-        lastInput.style.outline="solid 1px var(--cl3)"
+        lastInput.style.outline="solid 2px var(--primary)"
           // usando o exemplo de código que eu mostrei antes
         }
       }
